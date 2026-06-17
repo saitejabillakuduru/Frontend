@@ -1,0 +1,42 @@
+.keys{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 8px;
+}
+
+button{
+    height: 40px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: orange;
+    color: white;
+}
+
+.display{
+    border: 2px solid grey;
+    height: 120px;
+    font-size: 1.6em;
+    margin-bottom: 10px;
+    background-color: white;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: right;
+    padding: 4px;
+}
+
+.cal{
+    width: 40%;
+    height: 40%;
+    background: linear-gradient(
+        180deg,
+        #9fa8da,
+        #a8d5c2
+    );
+    margin: 80px auto;
+    padding: 10px;
+    border: 2px solid grey;
+    box-sizing: border-box;
+}
